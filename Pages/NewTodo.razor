@@ -1,0 +1,78 @@
+﻿@page "/todo/new"
+
+<!-- Importation des espaces de noms et injection des dépendances -->
+@using TodoListMauiApp.Models
+@using TodoListMauiApp.Services
+@inject ITodoService TodoService
+@inject NavigationManager Navigation
+
+<!-- Affichage du titre de la page -->
+<h3>Create New Todo</h3>
+
+<!-- Formulaire d'édition avec liaison aux propriétés du nouveau todo -->
+<EditForm Model="@newTodo" OnValidSubmit="HandleValidSubmit">
+    <!-- Validation basée sur les annotations de données -->
+    <DataAnnotationsValidator />
+
+    <!-- Champ pour le nom du nouveau todo -->
+    <div>
+        <label for="Name">Name:</label>
+        <InputText id="Name" @bind-Value="newTodo.Name" />
+        <!-- Affichage des messages de validation pour le champ Name -->
+        <ValidationMessage For="() => newTodo.Name" />
+    </div>
+
+    <!-- Champ pour la description du nouveau todo -->
+    <div>
+        <label for="Description">Description:</label>
+        <InputText id="Description" @bind-Value="newTodo.Description" />
+        <!-- Affichage des messages de validation pour le champ Description -->
+        <ValidationMessage For="() => newTodo.Description" />
+    </div>
+
+    <!-- Bouton de soumission du formulaire -->
+    <div>
+        <button type="submit">Create</button>
+    </div>
+</EditForm>
+
+<!-- Affichage du message d'erreur s'il y a une erreur -->
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <p style="color: red;">@errorMessage</p>
+}
+
+<!-- Lien pour revenir à la liste des tâches -->
+<p><a href="fetchdata">Back to Todo List</a></p>
+
+@code {
+    // Déclaration d'une instance de TodoModel pour le nouveau todo
+    private TodoModel newTodo = new TodoModel();
+    // Déclaration d'une variable pour stocker le message d'erreur
+    private string errorMessage = string.Empty;
+
+    // Méthode appelée lors de la soumission valide du formulaire
+    private async Task HandleValidSubmit()
+    {
+        // Vérification si les champs obligatoires sont vides ou blancs
+        if (string.IsNullOrWhiteSpace(newTodo.Name) || string.IsNullOrWhiteSpace(newTodo.Description))
+        {
+            // Définition du message d'erreur si les champs sont vides
+            errorMessage = "Name and Description are required.";
+            return;
+        }
+
+        try
+        {
+            // Tentative d'ajouter le nouveau todo en utilisant le service TodoService
+            await TodoService.AddTodoAsync(newTodo);
+            // Redirection vers la liste des tâches après l'ajout réussi
+            Navigation.NavigateTo("/fetchdata");
+        }
+        catch (Exception ex)
+        {
+            // En cas d'erreur lors de l'ajout du todo, définissez le message d'erreur approprié
+            errorMessage = $"An error occurred: {ex.Message}";
+        }
+    }
+}

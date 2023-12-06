@@ -1,0 +1,108 @@
+﻿@page "/fetchdata"
+
+<!-- Importation des espaces de noms et injection des dépendances -->
+@using TodoListMauiApp.Models
+@using TodoListMauiApp.Services
+@inject ITodoService TodoService
+@inject NavigationManager Navigation
+
+<!-- Affichage du titre de la page -->
+<h1>Todo List</h1>
+
+<!-- Lien pour ajouter une nouvelle tâche -->
+<p><a href="todo/new">Add New Todo</a></p>
+
+<!-- Vérification si la liste de tâches (todos) n'est pas null -->
+@if (todos != null)
+{
+    <!-- Affichage d'un tableau pour la présentation des tâches -->
+    <table class="table">
+        <!-- En-tête du tableau -->
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th></th>
+            </tr>
+        </thead>
+        <!-- Corps du tableau avec les données des tâches -->
+        <tbody>
+            <!-- Boucle pour chaque tâche dans la liste -->
+            @foreach (var todo in todos)
+            {
+                <tr>
+                    <!-- Affichage des colonnes Name et Description de la tâche -->
+                    <td>@todo.Name</td>
+                    <td>@todo.Description</td>
+                    <!-- Colonne pour les boutons d'action (View, Edit, Delete) -->
+                    <td>
+                        <!-- Bouton pour visualiser la tâche -->
+                        <button class="btn btn-primary" @onclick="@(() => ViewTodoAsync(todo.Id))">View</button>
+                        <!-- Bouton pour modifier la tâche -->
+                        <button class="btn btn-warning" @onclick="@(() => UpdateTodoAsync(todo.Id))">Edit</button>
+                        <!-- Bouton pour supprimer la tâche -->
+                        <button class="btn btn-danger" @onclick="@(() => DeleteTodoAsync(todo.Id))">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <!-- Affichage d'un message si la liste de tâches est null -->
+    <p>Loading...</p>
+}
+
+@code {
+    // Déclaration d'une variable pour stocker la liste de tâches
+    private List<TodoModel> todos;
+
+    // Méthode appelée lors de l'initialisation de la page
+    protected override async Task OnInitializedAsync()
+    {
+        // Récupération de la liste de tâches à partir du service TodoService
+        todos = await TodoService.GetAllTodosAsync();
+    }
+
+    // Méthode pour supprimer une tâche
+    private async Task DeleteTodoAsync(int todoId)
+    {
+        // Récupération de la tâche à supprimer à partir de l'ID
+        var todoToDelete = await TodoService.GetTodoByIdAsync(todoId);
+
+        // Vérification si la tâche à supprimer existe
+        if (todoToDelete != null)
+        {
+            // Appel du service pour supprimer la tâche
+            await TodoService.DeleteTodoAsync(todoToDelete);
+            // Actualisation de la liste de tâches après la suppression
+            todos = await TodoService.GetAllTodosAsync();
+        }
+    }
+
+    // Méthode pour rediriger vers la page de modification d'une tâche
+    private void UpdateTodoAsync(int todoId)
+    {
+        // Navigation vers la page d'édition avec l'ID de la tâche
+        Navigation.NavigateTo($"/todo/edit/{todoId}");
+        // Autres opérations si nécessaires
+    }
+
+    // Méthode pour rediriger vers la page de visualisation d'une tâche
+    private void ViewTodoAsync(int todoId)
+    {
+        try
+        {
+            // Navigation vers la page de visualisation avec l'ID de la tâche
+            Navigation.NavigateTo($"/todo/{todoId}");
+            // Autres opérations si nécessaires
+        }
+        catch (Exception ex)
+        {
+            // Gestion des erreurs potentielles
+            Console.WriteLine($"An error occurred: {ex.Message}");
+            // Autres actions de gestion d'erreur si nécessaires
+        }
+    }
+}
