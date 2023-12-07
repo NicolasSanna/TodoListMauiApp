@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\TodoListMauiApp.csproj": {}
+    "C:\\wamp64\\www\\TodoListMauiApp\\TodoListMauiApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\TodoListMauiApp.csproj": {
+    "C:\\wamp64\\www\\TodoListMauiApp\\TodoListMauiApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\TodoListMauiApp.csproj",
+        "projectUniqueName": "C:\\wamp64\\www\\TodoListMauiApp\\TodoListMauiApp.csproj",
         "projectName": "TodoListMauiApp",
-        "projectPath": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\TodoListMauiApp.csproj",
+        "projectPath": "C:\\wamp64\\www\\TodoListMauiApp\\TodoListMauiApp.csproj",
         "packagesPath": "C:\\Users\\Nicol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\obj\\publish\\win10-x64\\",
+        "outputPath": "C:\\wamp64\\www\\TodoListMauiApp\\obj\\publish\\win10-x64\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

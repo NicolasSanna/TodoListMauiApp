@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6KCgNtHjQ4BBVOWPaBijH2eMHdnH5eHO6yZMCjW0NE/fSjnUNPHFqJorsZ6c80i3Q7YjC0TL5/qaBKP6gOZZng==",
+  "dgSpecHash": "9DszgnP1WfxWTJ3jqROYLBDC/orv40qzWnrs7x+G1svScFdfmbiUwyaalhN8xoPiG3xNaynFWoCIVZBolwnnHQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\TodoListMauiApp.csproj",
+  "projectFilePath": "C:\\wamp64\\www\\TodoListMauiApp\\TodoListMauiApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nicol\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\Nicol\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.11\\microsoft.aspnetcore.authorization.7.0.11.nupkg.sha512",

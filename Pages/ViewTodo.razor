@@ -25,23 +25,5 @@ else
 <p>Todo not found!</p>
 }
 
-<!-- Section de code C# -->
-@code {
-    <!-- Déclaration d'une propriété Id qui reçoit la valeur de l'URL -->
-    [Parameter]
-    public string Id { get; set; }
 
-    <!-- Déclaration d'une instance de TodoModel pour stocker les détails de la tâche -->
-    private TodoModel todo;
 
-    <!-- Méthode appelée lors de l'initialisation de la page -->
-    protected override async Task OnInitializedAsync()
-    {
-        <!-- Convertir la chaîne Id en entier si nécessaire -->
-        if (int.TryParse(Id, out int todoId))
-        {
-            <!-- Appel au service TodoService pour obtenir les détails de la tâche par son Id -->
-            todo = await TodoService.GetTodoByIdAsync(todoId);
-        }
-    }
-}

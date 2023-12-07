@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VG9628cSPtBEm2qKC9nif3Q9fKeDM2Zc/5DKa8p/rndAWjxg1T+kl/s7AqtIbSl7j8ND4mKjwFtCnLZVWDCmWQ==",
+  "dgSpecHash": "sgCQKSw82NhPm9MjUDxc/kY60qMQVxzb5JYsg0UpXx332uNdn/Uc+Lg2SfB5pQiM2/qVksTkPYRPDtprbi2hhQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\TodoListMauiApp.csproj",
+  "projectFilePath": "C:\\wamp64\\www\\TodoListMauiApp\\TodoListMauiApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nicol\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.11\\microsoft.aspnetcore.authorization.7.0.11.nupkg.sha512",
     "C:\\Users\\Nicol\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.11\\microsoft.aspnetcore.components.7.0.11.nupkg.sha512",
