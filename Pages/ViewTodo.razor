@@ -7,22 +7,22 @@
 @inject NavigationManager Navigation
 
 <!-- Affichage du titre de la page -->
-<h3>View Todo</h3>
+<h3>@todo.Name</h3>
 
 <!-- Condition : si la tâche (todo) existe -->
 @if (todo != null)
 {
     <!-- Affichage du nom de la tâche -->
-    <p><strong>Name:</strong> @todo.Name</p>
+    <p><strong>Nom:</strong> @todo.Name</p>
     <!-- Affichage de la description de la tâche -->
     <p><strong>Description:</strong> @todo.Description</p>
     <!-- Lien pour revenir à la liste des tâches -->
-    <p><a href="/fetchdata">Back to Todo List</a></p>
+    <p><a href="/fetchdata">Revenir à la liste</a></p>
 }
 else
 {
 <!-- Message indiquant que la tâche n'a pas été trouvée -->
-<p>Todo not found!</p>
+<p>Non trouvé !!</p>
 }
 
 

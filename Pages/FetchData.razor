@@ -1,16 +1,16 @@
 ﻿@page "/fetchdata"
 
 <!-- Importation des espaces de noms et injection des dépendances -->
-@using TodoListMauiApp.Models
 @using TodoListMauiApp.Services
 @inject ITodoService TodoService
 @inject NavigationManager Navigation
+@inject IJSRuntime JSRuntime
 
 <!-- Affichage du titre de la page -->
 <h1>Todo List</h1>
 
 <!-- Lien pour ajouter une nouvelle tâche -->
-<p><a href="todo/new">Add New Todo</a></p>
+<p><a href="todo/new">Ajouter une nouvelle tâche</a></p>
 
 <!-- Vérification si la liste de tâches (todos) n'est pas null -->
 @if (todos != null)
@@ -20,7 +20,7 @@
         <!-- En-tête du tableau -->
         <thead>
             <tr>
-                <th>Name</th>
+                <th>Nom</th>
                 <th>Description</th>
                 <th></th>
             </tr>
@@ -37,11 +37,11 @@
                     <!-- Colonne pour les boutons d'action (View, Edit, Delete) -->
                     <td>
                         <!-- Bouton pour visualiser la tâche -->
-                        <button class="btn btn-primary" @onclick="@(() => ViewTodoAsync(todo.Id))">View</button>
+                        <button class="btn btn-primary" @onclick="@(() => ViewTodoAsync(todo.Id))">Voir</button>
                         <!-- Bouton pour modifier la tâche -->
-                        <button class="btn btn-warning" @onclick="@(() => UpdateTodoAsync(todo.Id))">Edit</button>
+                        <button class="btn btn-warning" @onclick="@(() => UpdateTodoAsync(todo.Id))">Éditer</button>
                         <!-- Bouton pour supprimer la tâche -->
-                        <button class="btn btn-danger" @onclick="@(() => DeleteTodoAsync(todo.Id))">Delete</button>
+                        <button class="btn btn-danger" @onclick="@(() => HandleDeleteButtonClick(todo.Id))">Supprimer</button>
                     </td>
                 </tr>
             }
@@ -51,6 +51,5 @@
 else
 {
     <!-- Affichage d'un message si la liste de tâches est null -->
-    <p>Loading...</p>
+    <p>Chargement...</p>
 }
-

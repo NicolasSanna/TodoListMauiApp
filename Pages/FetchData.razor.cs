@@ -28,6 +28,19 @@ namespace TodoListMauiApp.Pages
             }
         }
 
+        private async Task HandleDeleteButtonClick(int todoId)
+        {
+            object[] text = { "Voulez-vous supprimer ce todo ?" };
+            // Appelez la fonction window.confirm avec le message
+            bool answer = await JSRuntime.InvokeAsync<bool>("window.confirm", text);
+
+            if (answer == true)
+            {
+                // Appel de la méthode de suppression avec l'ID de la tâche
+                await this.DeleteTodoAsync(todoId);
+            }
+        }
+
         // Méthode pour rediriger vers la page de modification d'une tâche
         private void UpdateTodoAsync(int todoId)
         {
@@ -39,18 +52,8 @@ namespace TodoListMauiApp.Pages
         // Méthode pour rediriger vers la page de visualisation d'une tâche
         private void ViewTodoAsync(int todoId)
         {
-            try
-            {
-                // Navigation vers la page de visualisation avec l'ID de la tâche
-                Navigation.NavigateTo($"/todo/{todoId}");
-            // Autres opérations si nécessaires
-            }
-            catch (Exception ex)
-            {
-                // Gestion des erreurs potentielles
-                Console.WriteLine($"An error occurred: {ex.Message}");
-            // Autres actions de gestion d'erreur si nécessaires
-            }
+            // Navigation vers la page de visualisation avec l'ID de la tâche
+            Navigation.NavigateTo($"/todo/{todoId}");
         }
     }
 }

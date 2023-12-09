@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fW7Uzjvyd/LpMOYXPYJ2rys196RJc8GM8GAy88yl8Jg=",
+  "Hash": "MSc8+GFrAzNhE7gqWyE6A7Dc/yWuC132SJY5Qyu6cXA=",
   "Source": "TodoListMauiApp",
   "BasePath": "/",
   "Mode": "Root",
@@ -10,17 +10,17 @@
     {
       "Name": "TodoListMauiApp\\wwwroot",
       "Source": "TodoListMauiApp",
-      "ContentRoot": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\wwwroot\\",
+      "ContentRoot": "C:\\wamp64\\www\\TodoListMauiApp\\wwwroot\\",
       "BasePath": "/",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\obj\\Debug\\net7.0-ios\\iossimulator-x64\\scopedcss\\bundle\\TodoListMauiApp.styles.css",
+      "Identity": "C:\\wamp64\\www\\TodoListMauiApp\\obj\\Debug\\net7.0-ios\\iossimulator-x64\\scopedcss\\bundle\\TodoListMauiApp.styles.css",
       "SourceId": "TodoListMauiApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\obj\\Debug\\net7.0-ios\\iossimulator-x64\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\wamp64\\www\\TodoListMauiApp\\obj\\Debug\\net7.0-ios\\iossimulator-x64\\scopedcss\\bundle\\",
       "BasePath": "/",
       "RelativePath": "TodoListMauiApp.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\obj\\Debug\\net7.0-ios\\iossimulator-x64\\scopedcss\\bundle\\TodoListMauiApp.styles.css"
+      "OriginalItemSpec": "C:\\wamp64\\www\\TodoListMauiApp\\obj\\Debug\\net7.0-ios\\iossimulator-x64\\scopedcss\\bundle\\TodoListMauiApp.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\obj\\Debug\\net7.0-ios\\iossimulator-x64\\scopedcss\\projectbundle\\TodoListMauiApp.bundle.scp.css",
+      "Identity": "C:\\wamp64\\www\\TodoListMauiApp\\obj\\Debug\\net7.0-ios\\iossimulator-x64\\scopedcss\\projectbundle\\TodoListMauiApp.bundle.scp.css",
       "SourceId": "TodoListMauiApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\obj\\Debug\\net7.0-ios\\iossimulator-x64\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\wamp64\\www\\TodoListMauiApp\\obj\\Debug\\net7.0-ios\\iossimulator-x64\\scopedcss\\projectbundle\\",
       "BasePath": "/",
       "RelativePath": "TodoListMauiApp.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\obj\\Debug\\net7.0-ios\\iossimulator-x64\\scopedcss\\projectbundle\\TodoListMauiApp.bundle.scp.css"
+      "OriginalItemSpec": "C:\\wamp64\\www\\TodoListMauiApp\\obj\\Debug\\net7.0-ios\\iossimulator-x64\\scopedcss\\projectbundle\\TodoListMauiApp.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\wwwroot\\css\\app.css",
+      "Identity": "C:\\wamp64\\www\\TodoListMauiApp\\wwwroot\\css\\app.css",
       "SourceId": "TodoListMauiApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\wwwroot\\",
+      "ContentRoot": "C:\\wamp64\\www\\TodoListMauiApp\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/app.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\app.css"
     },
     {
-      "Identity": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\wamp64\\www\\TodoListMauiApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "TodoListMauiApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\wwwroot\\",
+      "ContentRoot": "C:\\wamp64\\www\\TodoListMauiApp\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\wamp64\\www\\TodoListMauiApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "TodoListMauiApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\wwwroot\\",
+      "ContentRoot": "C:\\wamp64\\www\\TodoListMauiApp\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\wamp64\\www\\TodoListMauiApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "TodoListMauiApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\wwwroot\\",
+      "ContentRoot": "C:\\wamp64\\www\\TodoListMauiApp\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\wamp64\\www\\TodoListMauiApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "TodoListMauiApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\wwwroot\\",
+      "ContentRoot": "C:\\wamp64\\www\\TodoListMauiApp\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\wamp64\\www\\TodoListMauiApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "TodoListMauiApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\wwwroot\\",
+      "ContentRoot": "C:\\wamp64\\www\\TodoListMauiApp\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\wamp64\\www\\TodoListMauiApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "TodoListMauiApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\wwwroot\\",
+      "ContentRoot": "C:\\wamp64\\www\\TodoListMauiApp\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\wamp64\\www\\TodoListMauiApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "TodoListMauiApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\wwwroot\\",
+      "ContentRoot": "C:\\wamp64\\www\\TodoListMauiApp\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\wamp64\\www\\TodoListMauiApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "TodoListMauiApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\wwwroot\\",
+      "ContentRoot": "C:\\wamp64\\www\\TodoListMauiApp\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\wamp64\\www\\TodoListMauiApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "TodoListMauiApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\wwwroot\\",
+      "ContentRoot": "C:\\wamp64\\www\\TodoListMauiApp\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\wamp64\\www\\TodoListMauiApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "TodoListMauiApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\wwwroot\\",
+      "ContentRoot": "C:\\wamp64\\www\\TodoListMauiApp\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\wamp64\\www\\TodoListMauiApp\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "TodoListMauiApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\wwwroot\\",
+      "ContentRoot": "C:\\wamp64\\www\\TodoListMauiApp\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\wwwroot\\favicon.ico",
+      "Identity": "C:\\wamp64\\www\\TodoListMauiApp\\wwwroot\\favicon.ico",
       "SourceId": "TodoListMauiApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\wwwroot\\",
+      "ContentRoot": "C:\\wamp64\\www\\TodoListMauiApp\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\wwwroot\\index.html",
+      "Identity": "C:\\wamp64\\www\\TodoListMauiApp\\wwwroot\\index.html",
       "SourceId": "TodoListMauiApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nicol\\OneDrive\\Bureau\\TodoListMauiApp\\wwwroot\\",
+      "ContentRoot": "C:\\wamp64\\www\\TodoListMauiApp\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "index.html",
       "AssetKind": "All",

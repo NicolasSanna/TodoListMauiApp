@@ -15,7 +15,7 @@
     <EditForm Model="@todo" OnValidSubmit="HandleValidSubmit">
         <DataAnnotationsValidator />
         <div>
-            <label for="Name">Name:</label>
+            <label for="Name">Nom:</label>
             <!-- Utilisation d'un champ de texte lié bidirectionnellement à la propriété "Name" de la tâche -->
             <InputText id="Name" @bind-Value="todo.Name" />
             <!-- Affiche un message de validation pour la propriété "Name" si nécessaire -->
@@ -29,14 +29,14 @@
             <ValidationMessage For="() => todo.Description" />
         </div>
         <!-- Bouton de soumission du formulaire -->
-        <button type="submit">Save</button>
+        <button type="submit">Modifier</button>
     </EditForm>
     <!-- Lien de retour à la liste des tâches -->
-    <p><a href="fetchdata">Back to Todo List</a></p>
+    <p><a href="fetchdata">Revenir à la liste</a></p>
 }
 else
 {
     <!-- Affiche un message si la tâche n'est pas trouvée -->
-    <p>Todo not found!</p>
+    <p>Non trouvé !</p>
 }
 
