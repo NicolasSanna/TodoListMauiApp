@@ -7,7 +7,7 @@
 
     Pour plus d'informations sur les fichiers manifeste, consultez http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="8773BA1B-B163-4253-A0FC-F65BC85FDDCE" Publisher="CN=Nicol" Version="1.0.0.1" ProcessorArchitecture="x64" />
+  <Identity Name="8773BA1B-B163-4253-A0FC-F65BC85FDDCE" Publisher="CN=Nicol" Version="0.0.1.0" ProcessorArchitecture="x64" />
   <mp:PhoneIdentity PhoneProductId="9A291521-6F59-48A8-A1E0-C500548DDE6A" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>TodoListMauiApp</DisplayName>

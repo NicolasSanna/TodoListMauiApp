@@ -1,1 +1,1 @@
-C:\Users\Nicol\OneDrive\Bureau\TodoListMauiApp_1.0.0.1_Debug_Test\TodoListMauiApp_1.0.0.1_x64_Debug.msix
+C:\Users\Nicol\OneDrive\Bureau\TodoListMauiApp_0.0.1.0_Debug_Test\TodoListMauiApp_0.0.1.0_x64_Debug.msix
