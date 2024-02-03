@@ -2150,3 +2150,4 @@ C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-android\stamp\_ConvertResourcesCa
 C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-android\stamp\_GenerateJavaStubs.stamp
 C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-android\TodoListMauiApp.sourcelink.json

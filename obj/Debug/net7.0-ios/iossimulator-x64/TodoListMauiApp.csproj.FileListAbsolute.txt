@@ -606,3 +606,4 @@ C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\
 C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\splash@3x.png
 C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\f\MauiInfo.plist
 C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\f\OpenSans-Regular.ttf
+C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-ios\iossimulator-x64\TodoListMauiApp.sourcelink.json

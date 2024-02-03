@@ -6,12 +6,11 @@
 @inject ITodoService TodoService
 @inject NavigationManager Navigation
 
-<!-- Affichage du titre de la page -->
-<h3>@todo.Name</h3>
-
 <!-- Condition : si la tâche (todo) existe -->
 @if (todo != null)
 {
+    <!-- Affichage du titre de la page -->
+    <h3>@todo.Name</h3>
     <!-- Affichage du nom de la tâche -->
     <p><strong>Nom:</strong> @todo.Name</p>
     <!-- Affichage de la description de la tâche -->

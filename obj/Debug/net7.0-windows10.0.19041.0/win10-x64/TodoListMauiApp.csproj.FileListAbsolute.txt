@@ -598,7 +598,6 @@ C:\wamp64\www\TodoListMauiApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\cre
 C:\wamp64\www\TodoListMauiApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\hostfxr.dll
 C:\wamp64\www\TodoListMauiApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\hostpolicy.dll
 C:\wamp64\www\TodoListMauiApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore.dll
-C:\wamp64\www\TodoListMauiApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_7.0.1223.47720.dll
 C:\wamp64\www\TodoListMauiApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordbi.dll
 C:\wamp64\www\TodoListMauiApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscorrc.dll
 C:\wamp64\www\TodoListMauiApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\msquic.dll
@@ -714,3 +713,5 @@ C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qua
 C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\wamp64\www\TodoListMauiApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_7.0.1523.57226.dll
+C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\TodoListMauiApp.sourcelink.json
