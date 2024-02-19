@@ -30,29 +30,29 @@
     <AppXManifest Include="C:\wamp64\www\TodoListMauiApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-02-03T19:04:34.665</Modified>
+      <Modified>2024-02-19T14:50:21.271</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-02-03T17:47:06.457</Modified>
+      <Modified>2024-02-03T20:28:03.786</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\TodoListMauiApp.runtimeconfig.json">
       <PackagePath>TodoListMauiApp.runtimeconfig.json</PackagePath>
-      <Modified>2024-02-03T17:47:05.996</Modified>
+      <Modified>2024-02-03T20:28:03.520</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\TodoListMauiApp.dll">
       <PackagePath>TodoListMauiApp.dll</PackagePath>
-      <Modified>2024-02-03T19:04:33.318</Modified>
+      <Modified>2024-02-19T14:50:20.285</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>TodoListMauiApp.exe</PackagePath>
-      <Modified>2024-02-03T19:04:33.364</Modified>
+      <Modified>2024-02-19T14:50:20.293</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\TodoListMauiApp.deps.json">
       <PackagePath>TodoListMauiApp.deps.json</PackagePath>
-      <Modified>2024-02-03T17:47:05.858</Modified>
+      <Modified>2024-02-03T20:28:03.383</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nicol\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.15\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1032,11 +1032,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\TodoListMauiApp.styles.css">
       <PackagePath>wwwroot\TodoListMauiApp.styles.css</PackagePath>
-      <Modified>2024-01-24T21:54:45.111</Modified>
+      <Modified>2024-02-03T19:17:54.659</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\TodoListMauiApp.bundle.scp.css">
       <PackagePath>wwwroot\TodoListMauiApp.bundle.scp.css</PackagePath>
-      <Modified>2024-01-24T21:54:45.120</Modified>
+      <Modified>2024-02-03T19:17:54.659</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\wwwroot\css\app.css">
       <PackagePath>wwwroot\css\app.css</PackagePath>
@@ -1096,23 +1096,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.295</Modified>
+      <Modified>2024-02-03T19:18:02.864</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.311</Modified>
+      <Modified>2024-02-03T19:18:02.896</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.327</Modified>
+      <Modified>2024-02-03T19:18:02.911</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.374</Modified>
+      <Modified>2024-02-03T19:18:02.943</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.499</Modified>
+      <Modified>2024-02-03T19:18:03.099</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -1120,207 +1120,207 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-01-24T21:54:52.531</Modified>
+      <Modified>2024-02-03T19:18:03.147</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.839</Modified>
+      <Modified>2024-02-03T19:18:03.415</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.846</Modified>
+      <Modified>2024-02-03T19:18:03.430</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.862</Modified>
+      <Modified>2024-02-03T19:18:03.446</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.881</Modified>
+      <Modified>2024-02-03T19:18:03.462</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.941</Modified>
+      <Modified>2024-02-03T19:18:03.540</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.626</Modified>
+      <Modified>2024-02-03T19:18:03.225</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.636</Modified>
+      <Modified>2024-02-03T19:18:03.225</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.657</Modified>
+      <Modified>2024-02-03T19:18:03.243</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.641</Modified>
+      <Modified>2024-02-03T19:18:03.238</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.641</Modified>
+      <Modified>2024-02-03T19:18:03.243</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.596</Modified>
+      <Modified>2024-02-03T19:18:03.209</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.610</Modified>
+      <Modified>2024-02-03T19:18:03.213</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.626</Modified>
+      <Modified>2024-02-03T19:18:03.225</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.611</Modified>
+      <Modified>2024-02-03T19:18:03.216</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.618</Modified>
+      <Modified>2024-02-03T19:18:03.216</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.546</Modified>
+      <Modified>2024-02-03T19:18:03.162</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.546</Modified>
+      <Modified>2024-02-03T19:18:03.162</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.563</Modified>
+      <Modified>2024-02-03T19:18:03.162</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.563</Modified>
+      <Modified>2024-02-03T19:18:03.162</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.576</Modified>
+      <Modified>2024-02-03T19:18:03.182</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.578</Modified>
+      <Modified>2024-02-03T19:18:03.185</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.578</Modified>
+      <Modified>2024-02-03T19:18:03.185</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.596</Modified>
+      <Modified>2024-02-03T19:18:03.193</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.578</Modified>
+      <Modified>2024-02-03T19:18:03.193</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.594</Modified>
+      <Modified>2024-02-03T19:18:03.193</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.720</Modified>
+      <Modified>2024-02-03T19:18:03.296</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.728</Modified>
+      <Modified>2024-02-03T19:18:03.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.728</Modified>
+      <Modified>2024-02-03T19:18:03.313</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.736</Modified>
+      <Modified>2024-02-03T19:18:03.321</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.752</Modified>
+      <Modified>2024-02-03T19:18:03.337</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.693</Modified>
+      <Modified>2024-02-03T19:18:03.273</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.693</Modified>
+      <Modified>2024-02-03T19:18:03.278</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.701</Modified>
+      <Modified>2024-02-03T19:18:03.283</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.709</Modified>
+      <Modified>2024-02-03T19:18:03.289</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.709</Modified>
+      <Modified>2024-02-03T19:18:03.296</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.657</Modified>
+      <Modified>2024-02-03T19:18:03.255</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.668</Modified>
+      <Modified>2024-02-03T19:18:03.257</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.676</Modified>
+      <Modified>2024-02-03T19:18:03.261</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.676</Modified>
+      <Modified>2024-02-03T19:18:03.261</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.691</Modified>
+      <Modified>2024-02-03T19:18:03.271</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.767</Modified>
+      <Modified>2024-02-03T19:18:03.337</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.773</Modified>
+      <Modified>2024-02-03T19:18:03.352</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.783</Modified>
+      <Modified>2024-02-03T19:18:03.368</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.789</Modified>
+      <Modified>2024-02-03T19:18:03.368</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.830</Modified>
+      <Modified>2024-02-03T19:18:03.415</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.596</Modified>
+      <Modified>2024-02-03T19:18:03.193</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.610</Modified>
+      <Modified>2024-02-03T19:18:03.216</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.626</Modified>
+      <Modified>2024-02-03T19:18:03.225</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.649</Modified>
+      <Modified>2024-02-03T19:18:03.243</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-01-24T21:54:52.709</Modified>
+      <Modified>2024-02-03T19:18:03.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp64\www\TodoListMauiApp\Shared\MainLayout.razor.css">
       <PackagePath>Shared\MainLayout.razor.css</PackagePath>
