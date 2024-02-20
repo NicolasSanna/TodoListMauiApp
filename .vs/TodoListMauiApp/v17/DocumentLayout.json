@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|c:\\users\\nicol\\onedrive\\documents\\projets\\todolistmauiapp\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|solutionrelative:pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|c:\\users\\nicol\\onedrive\\documents\\projets\\todolistmauiapp\\pages\\newtodo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|solutionrelative:pages\\newtodo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|c:\\users\\nicol\\onedrive\\documents\\projets\\todolistmauiapp\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|solutionrelative:pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|c:\\users\\nicol\\onedrive\\documents\\projets\\todolistmauiapp\\pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|solutionrelative:pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|c:\\users\\nicol\\onedrive\\documents\\projets\\todolistmauiapp\\services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|solutionrelative:services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|c:\\users\\nicol\\onedrive\\documents\\projets\\todolistmauiapp\\data\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|solutionrelative:data\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|c:\\users\\nicol\\onedrive\\documents\\projets\\todolistmauiapp\\todolistmauiapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|solutionrelative:todolistmauiapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|c:\\users\\nicol\\onedrive\\documents\\projets\\todolistmauiapp\\models\\todomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|solutionrelative:models\\todomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|c:\\users\\nicol\\onedrive\\documents\\projets\\todolistmauiapp\\pages\\edittodo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|solutionrelative:pages\\edittodo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|c:\\users\\nicol\\onedrive\\documents\\projets\\todolistmauiapp\\pages\\viewtodo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|solutionrelative:pages\\viewtodo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|c:\\users\\nicol\\onedrive\\documents\\projets\\todolistmauiapp\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|solutionrelative:shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Pages\\Counter.razor",
+              "RelativeToolTip": "Pages\\Counter.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-20T12:39:47.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ViewTodo.razor",
+              "DocumentMoniker": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Pages\\ViewTodo.razor",
+              "RelativeDocumentMoniker": "Pages\\ViewTodo.razor",
+              "ToolTip": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Pages\\ViewTodo.razor",
+              "RelativeToolTip": "Pages\\ViewTodo.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-20T12:39:47.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Pages\\Index.razor",
+              "RelativeToolTip": "Pages\\Index.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-20T12:39:47.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NewTodo.razor",
+              "DocumentMoniker": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Pages\\NewTodo.razor",
+              "RelativeDocumentMoniker": "Pages\\NewTodo.razor",
+              "ToolTip": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Pages\\NewTodo.razor",
+              "RelativeToolTip": "Pages\\NewTodo.razor",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-20T12:39:47.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EditTodo.razor",
+              "DocumentMoniker": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Pages\\EditTodo.razor",
+              "RelativeDocumentMoniker": "Pages\\EditTodo.razor",
+              "ToolTip": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Pages\\EditTodo.razor",
+              "RelativeToolTip": "Pages\\EditTodo.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-20T12:39:47.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TodoModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Models\\TodoModel.cs",
+              "RelativeDocumentMoniker": "Models\\TodoModel.cs",
+              "ToolTip": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Models\\TodoModel.cs",
+              "RelativeToolTip": "Models\\TodoModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T14:16:37.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TodoService.cs",
+              "DocumentMoniker": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Services\\TodoService.cs",
+              "RelativeDocumentMoniker": "Services\\TodoService.cs",
+              "ToolTip": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Services\\TodoService.cs",
+              "RelativeToolTip": "Services\\TodoService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T14:01:17.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Data\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "Data\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Data\\WeatherForecast.cs",
+              "RelativeToolTip": "Data\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T15:50:17.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FetchData.razor",
+              "DocumentMoniker": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Pages\\FetchData.razor",
+              "RelativeDocumentMoniker": "Pages\\FetchData.razor",
+              "ToolTip": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Pages\\FetchData.razor",
+              "RelativeToolTip": "Pages\\FetchData.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-20T14:01:29.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TodoListMauiApp.csproj",
+              "DocumentMoniker": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\TodoListMauiApp.csproj",
+              "RelativeDocumentMoniker": "TodoListMauiApp.csproj",
+              "ToolTip": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\TodoListMauiApp.csproj",
+              "RelativeToolTip": "TodoListMauiApp.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-20T15:40:45.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Shared\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "Shared\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-20T12:39:47.579Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

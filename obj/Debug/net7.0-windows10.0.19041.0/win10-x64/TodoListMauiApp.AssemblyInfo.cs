@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TodoListMauiApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+ee7c39308d5a6bafdf800c11ee37cd18e5756794")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+384ceeed1569e293a60b51c19438e0f97de38104")]
 [assembly: System.Reflection.AssemblyProductAttribute("TodoListMauiApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TodoListMauiApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

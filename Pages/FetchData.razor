@@ -17,6 +17,7 @@
 @if (todos != null)
 {
     <!-- Affichage d'un tableau pour la présentation des tâches -->
+    <p>Il y a @countTodos Todo(s)</p>
     <table class="table">
         <!-- En-tête du tableau -->
         <thead>
@@ -59,11 +60,14 @@ else
 {
      // Déclaration d'une variable pour stocker la liste de tâches
         private List<TodoModel> todos;
+        private int countTodos = 0;
+
         // Méthode appelée lors de l'initialisation de la page
         protected override async Task OnInitializedAsync()
         {
             // Récupération de la liste de tâches à partir du service TodoService
             todos = await TodoService.GetAllTodosAsync();
+            countTodos = todos.Count();
         }
 
         // Méthode pour supprimer une tâche
@@ -78,6 +82,7 @@ else
                 await TodoService.DeleteTodoAsync(todoToDelete);
                 // Actualisation de la liste de tâches après la suppression
                 todos = await TodoService.GetAllTodosAsync();
+                countTodos = todos.Count();
             }
         }
 

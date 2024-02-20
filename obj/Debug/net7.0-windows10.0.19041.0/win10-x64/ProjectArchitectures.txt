@@ -1,1 +1,1 @@
-C:\wamp64\www\TodoListMauiApp\TodoListMauiApp.csproj;x64
+C:\Users\Nicol\OneDrive\Documents\Projets\TodoListMauiApp\TodoListMauiApp.csproj;x64

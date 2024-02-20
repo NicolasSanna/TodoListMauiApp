@@ -12,11 +12,11 @@ namespace TodoListMauiApp.Models
 
         // L'attribut [Required] indique que la propriété est obligatoire et ne peut pas être null.
         // Cela est souvent utilisé en conjonction avec des frameworks de validation tels que DataAnnotations.
-        [Required(ErrorMessage = "Name is required")]
+        [Required(ErrorMessage = "Le nom est obligatoire")]
         public string Name { get; set; }
 
         // Une autre propriété pour stocker la description de la tâche.
-        [Required(ErrorMessage = "Description is required")]
+        [Required(ErrorMessage = "La description est obligatoire")]
         public string Description { get; set; }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HIDomF38Xfc0Db9UYXULsJha/uFB/CxCx8nP1uJYi5xz15VGko61fo8jk7g+HFjr1d8Sk+jqE63lXRwaza4Tog==",
+  "dgSpecHash": "59RSiqUy4IX00bWxdPA5ZlrY1ajHKHUCwPSeZrKcEJZXqfmlrZe/XMEytAltKkeduP6ZUy97Gexs8e1vGNd9NA==",
   "success": true,
-  "projectFilePath": "C:\\wamp64\\www\\TodoListMauiApp\\TodoListMauiApp.csproj",
+  "projectFilePath": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\TodoListMauiApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nicol\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\Nicol\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.11\\microsoft.aspnetcore.authorization.7.0.11.nupkg.sha512",
@@ -162,12 +162,12 @@
     "C:\\Users\\Nicol\\.nuget\\packages\\microsoft.maui.essentials.ref.win\\7.0.101\\microsoft.maui.essentials.ref.win.7.0.101.nupkg.sha512",
     "C:\\Users\\Nicol\\.nuget\\packages\\microsoft.maui.core.runtime.win\\7.0.101\\microsoft.maui.core.runtime.win.7.0.101.nupkg.sha512",
     "C:\\Users\\Nicol\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.31\\microsoft.windows.sdk.net.ref.10.0.19041.31.nupkg.sha512",
-    "C:\\Users\\Nicol\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.15\\microsoft.aspnetcore.app.runtime.win-x64.7.0.15.nupkg.sha512",
+    "C:\\Users\\Nicol\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.16\\microsoft.aspnetcore.app.runtime.win-x64.7.0.16.nupkg.sha512",
     "C:\\Users\\Nicol\\.nuget\\packages\\microsoft.maui.controls.ref.win\\7.0.101\\microsoft.maui.controls.ref.win.7.0.101.nupkg.sha512",
     "C:\\Users\\Nicol\\.nuget\\packages\\microsoft.maui.core.ref.win\\7.0.101\\microsoft.maui.core.ref.win.7.0.101.nupkg.sha512",
     "C:\\Users\\Nicol\\.nuget\\packages\\microsoft.maui.essentials.runtime.win\\7.0.101\\microsoft.maui.essentials.runtime.win.7.0.101.nupkg.sha512",
-    "C:\\Users\\Nicol\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.15\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.15.nupkg.sha512",
-    "C:\\Users\\Nicol\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.15\\microsoft.netcore.app.runtime.win-x64.7.0.15.nupkg.sha512",
+    "C:\\Users\\Nicol\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.16\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.16.nupkg.sha512",
+    "C:\\Users\\Nicol\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.16\\microsoft.netcore.app.runtime.win-x64.7.0.16.nupkg.sha512",
     "C:\\Users\\Nicol\\.nuget\\packages\\microsoft.maui.controls.runtime.win\\7.0.101\\microsoft.maui.controls.runtime.win.7.0.101.nupkg.sha512"
   ],
   "logs": []
