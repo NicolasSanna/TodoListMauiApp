@@ -8,7 +8,7 @@
 
 <!-- Affichage du titre de la page -->
 <h3>Créer une nouvelle tâche</h3>
-
+<p>Affichage dynamique : @dynamicName</p>
 <!-- Formulaire d'édition avec liaison aux propriétés du nouveau todo -->
 <EditForm Model="@newTodo" OnValidSubmit="HandleValidSubmit">
     <!-- Validation basée sur les annotations de données -->
@@ -17,7 +17,8 @@
     <!-- Champ pour le nom du nouveau todo -->
     <div>
         <label for="Name">Name:</label>
-        <InputText id="Name" @bind-Value="newTodo.Name" />
+        <!-- On écoute l'événement quand on commence à mettre du texte avec oninput' -->
+        <InputText id="Name" @bind-Value="newTodo.Name" @oninput="UpdateName" />
         <!-- Affichage des messages de validation pour le champ Name -->
         <ValidationMessage For="() => newTodo.Name" />
     </div>
@@ -51,6 +52,9 @@
     private TodoModel newTodo = new TodoModel();
     // Déclaration d'une variable pour stocker le message d'erreur
     private string errorMessage = string.Empty;
+
+    private string dynamicName = "";
+
     // Méthode appelée lors de la soumission valide du formulaire
     private async Task HandleValidSubmit()
     {
@@ -58,7 +62,7 @@
         if (string.IsNullOrWhiteSpace(newTodo.Name) || string.IsNullOrWhiteSpace(newTodo.Description))
         {
             // Définition du message d'erreur si les champs sont vides
-            errorMessage = "Name and Description are required.";
+            errorMessage = "Le nom et la description sont requis";
             return;
         }
 
@@ -74,5 +78,11 @@
             // En cas d'erreur lors de l'ajout du todo, définissez le message d'erreur approprié
             errorMessage = $"An error occurred: {ex.Message}";
         }
+    }
+
+    // Affichage dynamique des propriétés de Name
+    private void UpdateName(ChangeEventArgs e)
+    {
+        dynamicName = e.Value.ToString();
     }
 }

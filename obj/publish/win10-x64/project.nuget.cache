@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7EGeJI+SeMQ36rWj9c4QdTdQ861hpU92Cz+KXFI8sQhlgmOPJ1pCxAa/0Zj3CYSKCHjs30Iu9ipeUhilABRGww==",
+  "dgSpecHash": "65F1gRPrjjTI0/bMvQuMgDuwuVbhRpLRh2d7kx9zRh+JLs0gd6vneiQBB+N/Ex1ObX0w0UcTSMufoFtQ9vOnFg==",
   "success": true,
-  "projectFilePath": "C:\\wamp64\\www\\TodoListMauiApp\\TodoListMauiApp.csproj",
+  "projectFilePath": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\TodoListMauiApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nicol\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.11\\microsoft.aspnetcore.authorization.7.0.11.nupkg.sha512",
     "C:\\Users\\Nicol\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.11\\microsoft.aspnetcore.components.7.0.11.nupkg.sha512",
@@ -44,9 +44,9 @@
     "C:\\Users\\Nicol\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Nicol\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\Nicol\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
-    "C:\\Users\\Nicol\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.15\\microsoft.netcore.app.runtime.win-x64.7.0.15.nupkg.sha512",
-    "C:\\Users\\Nicol\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.15\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.15.nupkg.sha512",
-    "C:\\Users\\Nicol\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.15\\microsoft.aspnetcore.app.runtime.win-x64.7.0.15.nupkg.sha512",
+    "C:\\Users\\Nicol\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.16\\microsoft.netcore.app.runtime.win-x64.7.0.16.nupkg.sha512",
+    "C:\\Users\\Nicol\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.16\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.16.nupkg.sha512",
+    "C:\\Users\\Nicol\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.16\\microsoft.aspnetcore.app.runtime.win-x64.7.0.16.nupkg.sha512",
     "C:\\Users\\Nicol\\.nuget\\packages\\microsoft.maui.core.ref.win\\7.0.101\\microsoft.maui.core.ref.win.7.0.101.nupkg.sha512",
     "C:\\Users\\Nicol\\.nuget\\packages\\microsoft.maui.core.runtime.win\\7.0.101\\microsoft.maui.core.runtime.win.7.0.101.nupkg.sha512",
     "C:\\Users\\Nicol\\.nuget\\packages\\microsoft.maui.controls.ref.win\\7.0.101\\microsoft.maui.controls.ref.win.7.0.101.nupkg.sha512",
