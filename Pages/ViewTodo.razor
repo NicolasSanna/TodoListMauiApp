@@ -7,14 +7,14 @@
 @inject NavigationManager Navigation
 
 <!-- Condition : si la tâche (todo) existe -->
-@if (todo != null)
+@if (Todo != null)
 {
     <!-- Affichage du titre de la page -->
-    <h3>@todo.Name</h3>
+    <h3>@Todo.Name</h3>
     <!-- Affichage du nom de la tâche -->
-    <p><strong>Nom:</strong> @todo.Name</p>
+    <p><strong>Nom:</strong> @Todo.Name</p>
     <!-- Affichage de la description de la tâche -->
-    <p><strong>Description:</strong> @todo.Description</p>
+    <p><strong>Description:</strong> @Todo.Description</p>
     <!-- Lien pour revenir à la liste des tâches -->
     <p><a href="/fetchdata">Revenir à la liste</a></p>
 }
@@ -28,15 +28,15 @@ else
 {
     [Parameter]
     public string Id { get; set; }
-    private TodoModel todo;
+    private TodoModel Todo;
 
     protected override async Task OnInitializedAsync()
     {
 
-        if (int.TryParse(Id, out int todoId))
+        if (int.TryParse(this.Id, out int todoId))
         {
 
-            todo = await TodoService.GetTodoByIdAsync(todoId);
+            this.Todo = await TodoService.GetTodoByIdAsync(todoId);
         }
     }
 }

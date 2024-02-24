@@ -10,7 +10,7 @@
 <h3>Créer une nouvelle tâche</h3>
 <p>Affichage dynamique : @dynamicName</p>
 <!-- Formulaire d'édition avec liaison aux propriétés du nouveau todo -->
-<EditForm Model="@newTodo" OnValidSubmit="HandleValidSubmit">
+<EditForm Model="@Todo" OnValidSubmit="HandleValidSubmit">
     <!-- Validation basée sur les annotations de données -->
     <DataAnnotationsValidator />
 
@@ -18,17 +18,17 @@
     <div>
         <label for="Name">Name:</label>
         <!-- On écoute l'événement quand on commence à mettre du texte avec oninput' -->
-        <InputText id="Name" @bind-Value="newTodo.Name" @oninput="UpdateName" />
+        <InputText id="Name" @bind-Value="Todo.Name" @oninput="UpdateName" />
         <!-- Affichage des messages de validation pour le champ Name -->
-        <ValidationMessage For="() => newTodo.Name" />
+        <ValidationMessage For="() => Todo.Name" />
     </div>
 
     <!-- Champ pour la description du nouveau todo -->
     <div>
         <label for="Description">Description:</label>
-        <InputText id="Description" @bind-Value="newTodo.Description" />
+        <InputText id="Description" @bind-Value="Todo.Description" />
         <!-- Affichage des messages de validation pour le champ Description -->
-        <ValidationMessage For="() => newTodo.Description" />
+        <ValidationMessage For="() => Todo.Description" />
     </div>
 
     <!-- Bouton de soumission du formulaire -->
@@ -49,7 +49,7 @@
 @code
 {
     // Déclaration d'une instance de TodoModel pour le nouveau todo
-    private TodoModel newTodo = new TodoModel();
+    private TodoModel Todo = new TodoModel();
     // Déclaration d'une variable pour stocker le message d'erreur
     private string errorMessage = string.Empty;
 
@@ -59,7 +59,7 @@
     private async Task HandleValidSubmit()
     {
         // Vérification si les champs obligatoires sont vides ou blancs
-        if (string.IsNullOrWhiteSpace(newTodo.Name) || string.IsNullOrWhiteSpace(newTodo.Description))
+        if (string.IsNullOrWhiteSpace(this.Todo.Name) || string.IsNullOrWhiteSpace(this.Todo.Description))
         {
             // Définition du message d'erreur si les champs sont vides
             errorMessage = "Le nom et la description sont requis";
@@ -69,7 +69,7 @@
         try
         {
             // Tentative d'ajouter le nouveau todo en utilisant le service TodoService
-            await TodoService.AddTodoAsync(newTodo);
+            await TodoService.AddTodoAsync(this.Todo);
             // Redirection vers la liste des tâches après l'ajout réussi
             Navigation.NavigateTo("/fetchdata");
         }

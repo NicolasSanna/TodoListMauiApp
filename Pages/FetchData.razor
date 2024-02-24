@@ -5,7 +5,6 @@
 @using TodoListMauiApp.Models;
 @inject ITodoService TodoService
 @inject NavigationManager Navigation
-@inject IJSRuntime JSRuntime
 
 <!-- Affichage du titre de la page -->
 <h1>Todo List</h1>
@@ -13,11 +12,32 @@
 <!-- Lien pour ajouter une nouvelle tâche -->
 <p><a href="todo/new">Ajouter une nouvelle tâche</a></p>
 
+@if (ShowModal)
+{
+    <div class="modal fade show d-flex align-items-center" tabindex="-1" role="dialog" style="display: block;">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Supprimer la Todo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" @onclick="(() => ShowModal = false)"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Voulez-vous vraiment supprimer cette Todo ?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" @onclick="HandleYesClick">Oui</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" @onclick="(() => ShowModal = false)">Non</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
 <!-- Vérification si la liste de tâches (todos) n'est pas null -->
-@if (todos != null)
+@if (Todos != null)
 {
     <!-- Affichage d'un tableau pour la présentation des tâches -->
-    <p>Il y a @countTodos Todo(s)</p>
+    <p>Il y a @CountTodos Todo(s)</p>
     <table class="table">
         <!-- En-tête du tableau -->
         <thead>
@@ -30,7 +50,7 @@
         <!-- Corps du tableau avec les données des tâches -->
         <tbody>
             <!-- Boucle pour chaque tâche dans la liste -->
-            @foreach (var todo in todos)
+            @foreach (var todo in Todos)
             {
                 <tr>
                     <!-- Affichage des colonnes Name et Description de la tâche -->
@@ -58,59 +78,61 @@ else
 
 @code
 {
-     // Déclaration d'une variable pour stocker la liste de tâches
-        private List<TodoModel> todos;
-        private int countTodos = 0;
+    // Déclaration d'une variable pour stocker la liste de tâches
+    private List<TodoModel> Todos;
+    private int CountTodos = 0;
+    bool ShowModal { get; set; }
+    int todoToDelete = 0;
 
-        // Méthode appelée lors de l'initialisation de la page
-        protected override async Task OnInitializedAsync()
+    // Méthode appelée lors de l'initialisation de la page
+    protected override async Task OnInitializedAsync()
+    {
+        // Récupération de la liste de tâches à partir du service TodoService
+        this.Todos = await TodoService.GetAllTodosAsync();
+        this.CountTodos = Todos.Count();
+    }
+
+    // Méthode pour supprimer une tâche
+    private async Task DeleteTodoAsync(int todoId)
+    {
+        // Récupération de la tâche à supprimer à partir de l'ID
+        var todoToDelete = await TodoService.GetTodoByIdAsync(todoId);
+        // Vérification si la tâche à supprimer existe
+        if (todoToDelete != null)
         {
-            // Récupération de la liste de tâches à partir du service TodoService
-            todos = await TodoService.GetAllTodosAsync();
-            countTodos = todos.Count();
+            // Appel du service pour supprimer la tâche
+            await TodoService.DeleteTodoAsync(todoToDelete);
+            // Actualisation de la liste de tâches après la suppression
+            this.Todos = await TodoService.GetAllTodosAsync();
+            this.CountTodos = Todos.Count();
         }
+    }
 
-        // Méthode pour supprimer une tâche
-        private async Task DeleteTodoAsync(int todoId)
-        {
-            // Récupération de la tâche à supprimer à partir de l'ID
-            var todoToDelete = await TodoService.GetTodoByIdAsync(todoId);
-            // Vérification si la tâche à supprimer existe
-            if (todoToDelete != null)
-            {
-                // Appel du service pour supprimer la tâche
-                await TodoService.DeleteTodoAsync(todoToDelete);
-                // Actualisation de la liste de tâches après la suppression
-                todos = await TodoService.GetAllTodosAsync();
-                countTodos = todos.Count();
-            }
-        }
+    private void HandleDeleteButtonClick(int todoId)
+    {
+        this.todoToDelete = todoId;
+        ShowModal = true;
+    }
 
-        private async Task HandleDeleteButtonClick(int todoId)
-        {
-            object[] text = { "Voulez-vous supprimer ce todo ?" };
-            // Appelez la fonction window.confirm avec le message
-            bool answer = await JSRuntime.InvokeAsync<bool>("window.confirm", text);
-
-            if (answer == true)
-            {
-                // Appel de la méthode de suppression avec l'ID de la tâche
-                await this.DeleteTodoAsync(todoId);
-            }
-        }
-
-        // Méthode pour rediriger vers la page de modification d'une tâche
-        private void UpdateTodoAsync(int todoId)
-        {
-            // Navigation vers la page d'édition avec l'ID de la tâche
-            Navigation.NavigateTo($"/todo/edit/{todoId}");
+    // Méthode pour rediriger vers la page de modification d'une tâche
+    private void UpdateTodoAsync(int todoId)
+    {
+        // Navigation vers la page d'édition avec l'ID de la tâche
+        Navigation.NavigateTo($"/todo/edit/{todoId}");
         // Autres opérations si nécessaires
-        }
+    }
 
-        // Méthode pour rediriger vers la page de visualisation d'une tâche
-        private void ViewTodoAsync(int todoId)
-        {
-            // Navigation vers la page de visualisation avec l'ID de la tâche
-            Navigation.NavigateTo($"/todo/{todoId}");
-        }
+    // Méthode pour rediriger vers la page de visualisation d'une tâche
+    private void ViewTodoAsync(int todoId)
+    {
+        // Navigation vers la page de visualisation avec l'ID de la tâche
+        Navigation.NavigateTo($"/todo/{todoId}");
+    }
+
+    private async Task HandleYesClick()
+    {
+        // Appel de la méthode de suppression avec l'ID de la tâche
+        await this.DeleteTodoAsync(todoToDelete);
+        ShowModal = false;
+    }
 }

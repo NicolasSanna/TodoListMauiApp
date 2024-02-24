@@ -9,24 +9,24 @@
 <h3>Edit Todo</h3>
 
 <!-- Vérifie si la tâche (todo) existe -->
-@if (todo != null)
+@if (Todo != null)
 {
     <!-- Utilisation d'un formulaire de modification (EditForm) -->
-    <EditForm Model="@todo" OnValidSubmit="HandleValidSubmit">
+    <EditForm Model="@Todo" OnValidSubmit="HandleValidSubmit">
         <DataAnnotationsValidator />
         <div>
             <label for="Name">Nom:</label>
             <!-- Utilisation d'un champ de texte lié bidirectionnellement à la propriété "Name" de la tâche -->
-            <InputText id="Name" @bind-Value="todo.Name" />
+            <InputText id="Name" @bind-Value="Todo.Name" />
             <!-- Affiche un message de validation pour la propriété "Name" si nécessaire -->
-            <ValidationMessage For="() => todo.Name" />
+            <ValidationMessage For="() => Todo.Name" />
         </div>
         <div>
             <label for="Description">Description:</label>
             <!-- Utilisation d'un champ de texte lié bidirectionnellement à la propriété "Description" de la tâche -->
-            <InputText id="Description" @bind-Value="todo.Description" />
+            <InputText id="Description" @bind-Value="Todo.Description" />
             <!-- Affiche un message de validation pour la propriété "Description" si nécessaire -->
-            <ValidationMessage For="() => todo.Description" />
+            <ValidationMessage For="() => Todo.Description" />
         </div>
         <!-- Bouton de soumission du formulaire -->
         <button type="submit">Modifier</button>
@@ -47,15 +47,15 @@ else
     public string Id { get; set; }
 
     // Déclaration d'une variable privée pour stocker la tâche à éditer
-    private TodoModel todo;
+    private TodoModel Todo;
     // Méthode appelée lors de l'initialisation de la page
     protected override async Task OnInitializedAsync()
     {
         // Convertir la chaîne Id en entier si nécessaire
-        if (int.TryParse(Id, out int todoId))
+        if (int.TryParse(this.Id, out int todoId))
         {
             // Récupérer la tâche à éditer à partir du service TodoService
-            todo = await TodoService.GetTodoByIdAsync(todoId);
+            this.Todo = await TodoService.GetTodoByIdAsync(todoId);
         }
     }
 
@@ -63,7 +63,7 @@ else
     private async Task HandleValidSubmit()
     {
         // Mettre à jour la tâche à l'aide du service TodoService
-        await TodoService.UpdateTodoAsync(todo);
+        await TodoService.UpdateTodoAsync(this.Todo);
         // Naviguer vers la liste des tâches après la mise à jour
         Navigation.NavigateTo("/fetchdata");
     }

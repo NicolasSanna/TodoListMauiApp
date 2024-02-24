@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|c:\\users\\nicol\\onedrive\\documents\\projets\\todolistmauiapp\\pages\\newtodo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|solutionrelative:pages\\newtodo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|c:\\users\\nicol\\onedrive\\documents\\projets\\todolistmauiapp\\pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|solutionrelative:pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|c:\\users\\nicol\\onedrive\\documents\\projets\\todolistmauiapp\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|solutionrelative:pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|c:\\users\\nicol\\onedrive\\documents\\projets\\todolistmauiapp\\pages\\newtodo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|solutionrelative:pages\\newtodo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|c:\\users\\nicol\\onedrive\\documents\\projets\\todolistmauiapp\\models\\todomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|solutionrelative:models\\todomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|c:\\users\\nicol\\onedrive\\documents\\projets\\todolistmauiapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|c:\\users\\nicol\\onedrive\\documents\\projets\\todolistmauiapp\\services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|solutionrelative:services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|c:\\users\\nicol\\onedrive\\documents\\projets\\todolistmauiapp\\pages\\viewtodo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|solutionrelative:pages\\viewtodo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|c:\\users\\nicol\\onedrive\\documents\\projets\\todolistmauiapp\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -35,16 +23,8 @@
       "RelativeMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|solutionrelative:pages\\edittodo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|c:\\users\\nicol\\onedrive\\documents\\projets\\todolistmauiapp\\pages\\viewtodo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|solutionrelative:pages\\viewtodo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|c:\\users\\nicol\\onedrive\\documents\\projets\\todolistmauiapp\\todolistmauiapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|solutionrelative:todolistmauiapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|c:\\users\\nicol\\onedrive\\documents\\projets\\todolistmauiapp\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|solutionrelative:shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|c:\\users\\nicol\\onedrive\\documents\\projets\\todolistmauiapp\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D5DC2F8-A03E-4777-85D5-B3A9CD1C8F65}|TodoListMauiApp.csproj|solutionrelative:pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,49 +34,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "TodoService.cs",
-              "DocumentMoniker": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Services\\TodoService.cs",
-              "RelativeDocumentMoniker": "Services\\TodoService.cs",
-              "ToolTip": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Services\\TodoService.cs",
-              "RelativeToolTip": "Services\\TodoService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-21T16:25:37.211Z",
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Pages\\Counter.razor",
+              "RelativeToolTip": "Pages\\Counter.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-24T14:57:48.727Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "MauiProgram.cs",
-              "ToolTip": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\MauiProgram.cs",
-              "RelativeToolTip": "MauiProgram.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-21T16:30:03.704Z",
+              "DocumentIndex": 0,
+              "Title": "FetchData.razor",
+              "DocumentMoniker": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Pages\\FetchData.razor",
+              "RelativeDocumentMoniker": "Pages\\FetchData.razor",
+              "ToolTip": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Pages\\FetchData.razor",
+              "RelativeToolTip": "Pages\\FetchData.razor",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAABgAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-24T14:24:48.274Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
+              "Title": "NewTodo.razor",
+              "DocumentMoniker": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Pages\\NewTodo.razor",
+              "RelativeDocumentMoniker": "Pages\\NewTodo.razor",
+              "ToolTip": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Pages\\NewTodo.razor",
+              "RelativeToolTip": "Pages\\NewTodo.razor",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-24T14:24:46.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ViewTodo.razor",
               "DocumentMoniker": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Pages\\ViewTodo.razor",
               "RelativeDocumentMoniker": "Pages\\ViewTodo.razor",
               "ToolTip": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Pages\\ViewTodo.razor",
               "RelativeToolTip": "Pages\\ViewTodo.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAUAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACMAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-20T12:39:47.807Z"
+              "WhenOpened": "2024-02-24T14:24:45.603Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Index.razor",
               "DocumentMoniker": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Pages\\Index.razor",
               "RelativeDocumentMoniker": "Pages\\Index.razor",
@@ -104,97 +98,21 @@
               "RelativeToolTip": "Pages\\Index.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-20T12:39:47.812Z",
+              "WhenOpened": "2024-02-24T14:24:44.338Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NewTodo.razor",
-              "DocumentMoniker": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Pages\\NewTodo.razor",
-              "RelativeDocumentMoniker": "Pages\\NewTodo.razor",
-              "ToolTip": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Pages\\NewTodo.razor",
-              "RelativeToolTip": "Pages\\NewTodo.razor",
-              "ViewState": "AQIAACQAAAAAAAAAAAAcwEoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-20T12:39:47.817Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "EditTodo.razor",
               "DocumentMoniker": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Pages\\EditTodo.razor",
               "RelativeDocumentMoniker": "Pages\\EditTodo.razor",
               "ToolTip": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Pages\\EditTodo.razor",
               "RelativeToolTip": "Pages\\EditTodo.razor",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAABYAAAAOAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEEAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-20T12:39:47.82Z",
+              "WhenOpened": "2024-02-24T14:24:43.017Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TodoModel.cs",
-              "DocumentMoniker": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Models\\TodoModel.cs",
-              "RelativeDocumentMoniker": "Models\\TodoModel.cs",
-              "ToolTip": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Models\\TodoModel.cs",
-              "RelativeToolTip": "Models\\TodoModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T14:16:37.135Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FetchData.razor",
-              "DocumentMoniker": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Pages\\FetchData.razor",
-              "RelativeDocumentMoniker": "Pages\\FetchData.razor",
-              "ToolTip": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Pages\\FetchData.razor",
-              "RelativeToolTip": "Pages\\FetchData.razor",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAAFYAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-20T14:01:29.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Counter.razor",
-              "DocumentMoniker": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Pages\\Counter.razor",
-              "RelativeDocumentMoniker": "Pages\\Counter.razor",
-              "ToolTip": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Pages\\Counter.razor",
-              "RelativeToolTip": "Pages\\Counter.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-20T12:39:47.805Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TodoListMauiApp.csproj",
-              "DocumentMoniker": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\TodoListMauiApp.csproj",
-              "RelativeDocumentMoniker": "TodoListMauiApp.csproj",
-              "ToolTip": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\TodoListMauiApp.csproj",
-              "RelativeToolTip": "TodoListMauiApp.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-02-20T15:40:45.796Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Shared\\NavMenu.razor",
-              "RelativeDocumentMoniker": "Shared\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Shared\\NavMenu.razor",
-              "RelativeToolTip": "Shared\\NavMenu.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-20T12:39:47.579Z"
             }
           ]
         }
