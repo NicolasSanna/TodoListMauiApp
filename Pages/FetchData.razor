@@ -7,12 +7,12 @@
 @inject NavigationManager Navigation
 
 <!-- Affichage du titre de la page -->
-<h1>Todo List</h1>
+<h1>Liste des Tâches</h1>
 
 <!-- Lien pour ajouter une nouvelle tâche -->
 <p><a href="todo/new">Ajouter une nouvelle tâche</a></p>
 
-@if (ShowModal)
+@if (ShowModal == true)
 {
     <div class="modal fade show d-flex align-items-center" tabindex="-1" role="dialog" style="display: block;">
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -96,7 +96,7 @@ else
     private async Task DeleteTodoAsync(int todoId)
     {
         // Récupération de la tâche à supprimer à partir de l'ID
-        var todoToDelete = await TodoService.GetTodoByIdAsync(todoId);
+        var todoToDelete = await this.TodoService.GetTodoByIdAsync(todoId);
         // Vérification si la tâche à supprimer existe
         if (todoToDelete != null)
         {
@@ -118,7 +118,7 @@ else
     private void UpdateTodoAsync(int todoId)
     {
         // Navigation vers la page d'édition avec l'ID de la tâche
-        Navigation.NavigateTo($"/todo/edit/{todoId}");
+        this.Navigation.NavigateTo($"/todo/edit/{todoId}");
         // Autres opérations si nécessaires
     }
 
@@ -126,7 +126,7 @@ else
     private void ViewTodoAsync(int todoId)
     {
         // Navigation vers la page de visualisation avec l'ID de la tâche
-        Navigation.NavigateTo($"/todo/{todoId}");
+        this.Navigation.NavigateTo($"/todo/{todoId}");
     }
 
     private async Task HandleYesClick()

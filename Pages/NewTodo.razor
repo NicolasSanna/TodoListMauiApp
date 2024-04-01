@@ -62,27 +62,27 @@
         if (string.IsNullOrWhiteSpace(this.Todo.Name) || string.IsNullOrWhiteSpace(this.Todo.Description))
         {
             // Définition du message d'erreur si les champs sont vides
-            errorMessage = "Le nom et la description sont requis";
+            this.errorMessage = "Le nom et la description sont requis";
             return;
         }
 
         try
         {
             // Tentative d'ajouter le nouveau todo en utilisant le service TodoService
-            await TodoService.AddTodoAsync(this.Todo);
+            await this.TodoService.AddTodoAsync(this.Todo);
             // Redirection vers la liste des tâches après l'ajout réussi
             Navigation.NavigateTo("/fetchdata");
         }
         catch (Exception ex)
         {
             // En cas d'erreur lors de l'ajout du todo, définissez le message d'erreur approprié
-            errorMessage = $"An error occurred: {ex.Message}";
+            this.errorMessage = $"An error occurred: {ex.Message}";
         }
     }
 
     // Affichage dynamique des propriétés de Name
     private void UpdateName(ChangeEventArgs e)
     {
-        dynamicName = e.Value.ToString();
+        this.dynamicName = e.Value.ToString();
     }
 }

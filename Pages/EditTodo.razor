@@ -55,7 +55,7 @@ else
         if (int.TryParse(this.Id, out int todoId))
         {
             // Récupérer la tâche à éditer à partir du service TodoService
-            this.Todo = await TodoService.GetTodoByIdAsync(todoId);
+            this.Todo = await this.TodoService.GetTodoByIdAsync(todoId);
         }
     }
 
@@ -63,8 +63,8 @@ else
     private async Task HandleValidSubmit()
     {
         // Mettre à jour la tâche à l'aide du service TodoService
-        await TodoService.UpdateTodoAsync(this.Todo);
+        await this.TodoService.UpdateTodoAsync(this.Todo);
         // Naviguer vers la liste des tâches après la mise à jour
-        Navigation.NavigateTo("/fetchdata");
+        this.Navigation.NavigateTo("/fetchdata");
     }
 }

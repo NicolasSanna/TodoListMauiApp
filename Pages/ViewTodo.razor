@@ -36,7 +36,7 @@ else
         if (int.TryParse(this.Id, out int todoId))
         {
 
-            this.Todo = await TodoService.GetTodoByIdAsync(todoId);
+            this.Todo = await this.TodoService.GetTodoByIdAsync(todoId);
         }
     }
 }
