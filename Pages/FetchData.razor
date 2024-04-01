@@ -22,7 +22,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" @onclick="(() => ShowModal = false)"></button>
                 </div>
                 <div class="modal-body">
-                    <p>Voulez-vous vraiment supprimer cette Todo ?</p>
+                    <p>Voulez-vous supprimer cette Todo ?</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-primary" @onclick="HandleYesClick">Oui</button>
@@ -81,8 +81,8 @@ else
     // Déclaration d'une variable pour stocker la liste de tâches
     private List<TodoModel> Todos;
     private int CountTodos = 0;
-    bool ShowModal { get; set; }
-    int todoToDelete = 0;
+    private bool ShowModal = false;
+    private int todoToDelete = 0;
 
     // Méthode appelée lors de l'initialisation de la page
     protected override async Task OnInitializedAsync()
@@ -111,7 +111,7 @@ else
     private void HandleDeleteButtonClick(int todoId)
     {
         this.todoToDelete = todoId;
-        ShowModal = true;
+        this.ShowModal = true;
     }
 
     // Méthode pour rediriger vers la page de modification d'une tâche
@@ -133,6 +133,6 @@ else
     {
         // Appel de la méthode de suppression avec l'ID de la tâche
         await this.DeleteTodoAsync(todoToDelete);
-        ShowModal = false;
+        this.ShowModal = false;
     }
 }

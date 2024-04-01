@@ -1,0 +1,1 @@
+C:\Users\Nicol\OneDrive\Documents\Projets\TodoListMauiApp\TodoListMauiApp.csproj;x64
