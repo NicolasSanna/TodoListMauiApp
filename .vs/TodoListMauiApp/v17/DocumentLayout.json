@@ -66,8 +66,7 @@
               "RelativeToolTip": "Data\\WeatherForecast.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T15:32:14.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-01T15:32:14.157Z"
             },
             {
               "$type": "Document",
@@ -91,8 +90,7 @@
               "RelativeToolTip": "Pages\\EditTodo.razor",
               "ViewState": "AQIAACcAAAAAAAAAAAAAADMAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-04T19:00:32.572Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T19:00:32.572Z"
             },
             {
               "$type": "Document",
@@ -104,8 +102,7 @@
               "RelativeToolTip": "wwwroot\\index.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-04-01T15:13:03.049Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-01T15:13:03.049Z"
             },
             {
               "$type": "Document",
@@ -117,8 +114,7 @@
               "RelativeToolTip": "Pages\\FetchData.razor",
               "ViewState": "AQIAAGMAAAAAAAAAAAAAAFAAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-04T19:23:00.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T19:23:00.192Z"
             },
             {
               "$type": "Document",
@@ -130,8 +126,7 @@
               "RelativeToolTip": "Shared\\NavMenu.razor",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-01T15:40:08.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-01T15:40:08.538Z"
             },
             {
               "$type": "Document",
@@ -143,8 +138,7 @@
               "RelativeToolTip": "Pages\\Counter.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-01T15:44:33.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-01T15:44:33.95Z"
             },
             {
               "$type": "Document",
@@ -154,7 +148,7 @@
               "RelativeDocumentMoniker": "Pages\\NewTodo.razor",
               "ToolTip": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Pages\\NewTodo.razor",
               "RelativeToolTip": "Pages\\NewTodo.razor",
-              "ViewState": "AQIAADkAAAAAAAAAAAAAAAkAAAAhAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-04T19:22:55.55Z",
               "EditorCaption": ""
@@ -169,8 +163,7 @@
               "RelativeToolTip": "Data\\WeatherForecastService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T15:32:24.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-01T15:32:24.286Z"
             },
             {
               "$type": "Document",
@@ -182,8 +175,7 @@
               "RelativeToolTip": "Models\\TodoModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T15:32:36.107Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-01T15:32:36.107Z"
             },
             {
               "$type": "Document",
@@ -195,8 +187,7 @@
               "RelativeToolTip": "Pages\\Index.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-01T15:33:43.2Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-01T15:33:43.2Z"
             }
           ]
         }
