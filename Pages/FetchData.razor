@@ -12,21 +12,21 @@
 <!-- Lien pour ajouter une nouvelle tâche -->
 <p><a href="todo/new">Ajouter une nouvelle tâche</a></p>
 
-@if (ShowModal == true)
+@if (this.ShowModal == true)
 {
     <div class="modal fade show d-flex align-items-center" tabindex="-1" role="dialog" style="display: block;">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title">Supprimer la Todo</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" @onclick="(() => ShowModal = false)"></button>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" @onclick="(() => this.ShowModal = false)"></button>
                 </div>
                 <div class="modal-body">
                     <p>Voulez-vous supprimer cette Todo ?</p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" @onclick="HandleYesClick">Oui</button>
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" @onclick="(() => ShowModal = false)">Non</button>
+                    <button type="button" class="btn btn-primary" @onclick="this.HandleYesClick">Oui</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" @onclick="(() => this.ShowModal = false)">Non</button>
                 </div>
             </div>
         </div>
@@ -37,7 +37,7 @@
 @if (Todos != null)
 {
     <!-- Affichage d'un tableau pour la présentation des tâches -->
-    <p>Il y a @CountTodos Todo(s)</p>
+    <p>Il y a @this.CountTodos Todo(s)</p>
     <table class="table">
         <!-- En-tête du tableau -->
         <thead>
@@ -50,7 +50,7 @@
         <!-- Corps du tableau avec les données des tâches -->
         <tbody>
             <!-- Boucle pour chaque tâche dans la liste -->
-            @foreach (var todo in Todos)
+            @foreach (var todo in this.Todos)
             {
                 <tr>
                     <!-- Affichage des colonnes Name et Description de la tâche -->
@@ -59,11 +59,11 @@
                     <!-- Colonne pour les boutons d'action (View, Edit, Delete) -->
                     <td>
                         <!-- Bouton pour visualiser la tâche -->
-                        <button class="btn btn-primary" @onclick="@(() => ViewTodoAsync(todo.Id))">Voir</button>
+                        <button class="btn btn-primary" @onclick="@(() => this.ViewTodoAsync(todo.Id))">Voir</button>
                         <!-- Bouton pour modifier la tâche -->
-                        <button class="btn btn-warning" @onclick="@(() => UpdateTodoAsync(todo.Id))">Éditer</button>
+                        <button class="btn btn-warning" @onclick="@(() => this.UpdateTodoAsync(todo.Id))">Éditer</button>
                         <!-- Bouton pour supprimer la tâche -->
-                        <button class="btn btn-danger" @onclick="@(() => HandleDeleteButtonClick(todo.Id))">Supprimer</button>
+                        <button class="btn btn-danger" @onclick="@(() => this.HandleDeleteButtonClick(todo.Id))">Supprimer</button>
                     </td>
                 </tr>
             }
@@ -101,10 +101,10 @@ else
         if (todoToDelete != null)
         {
             // Appel du service pour supprimer la tâche
-            await TodoService.DeleteTodoAsync(todoToDelete);
+            await this.TodoService.DeleteTodoAsync(todoToDelete);
             // Actualisation de la liste de tâches après la suppression
-            this.Todos = await TodoService.GetAllTodosAsync();
-            this.CountTodos = Todos.Count();
+            this.Todos = await this.TodoService.GetAllTodosAsync();
+            this.CountTodos = this.Todos.Count();
         }
     }
 

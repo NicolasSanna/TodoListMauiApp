@@ -4,11 +4,11 @@
 
 <!-- Affiche le titre de la page. -->
 
-<p role="status">Comptage courant : @currentCount</p>
+<p role="status">Comptage courant : @this.currentCount</p>
 
 <!-- Affiche le compteur actuel. La valeur de @currentCount est directement intégrée dans le texte. -->
 
-<button class="btn btn-primary" @onclick="IncrementCount">Cliquez ici !</button>
+<button class="btn btn-primary" @onclick="this.IncrementCount">Cliquez ici !</button>
 
 <!-- Un bouton avec une classe CSS "btn btn-primary". L'attribut @onclick spécifie la méthode à appeler lors du clic sur le bouton. Dans ce cas, la méthode "IncrementCount". -->
 

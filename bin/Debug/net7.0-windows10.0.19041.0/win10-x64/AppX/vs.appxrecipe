@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\Nicol\OneDrive\Documents\Projets\TodoListMauiApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-04-01T19:39:39.786</Modified>
+      <Modified>2024-04-01T19:54:43.070</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nicol\OneDrive\Documents\Projets\TodoListMauiApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\TodoListMauiApp.dll">
       <PackagePath>TodoListMauiApp.dll</PackagePath>
-      <Modified>2024-04-01T19:39:38.903</Modified>
+      <Modified>2024-04-01T19:53:09.582</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nicol\OneDrive\Documents\Projets\TodoListMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>TodoListMauiApp.exe</PackagePath>
-      <Modified>2024-04-01T19:39:38.907</Modified>
+      <Modified>2024-04-01T19:53:09.586</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nicol\OneDrive\Documents\Projets\TodoListMauiApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\TodoListMauiApp.deps.json">
       <PackagePath>TodoListMauiApp.deps.json</PackagePath>

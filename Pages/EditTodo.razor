@@ -12,21 +12,21 @@
 @if (Todo != null)
 {
     <!-- Utilisation d'un formulaire de modification (EditForm) -->
-    <EditForm Model="@Todo" OnValidSubmit="HandleValidSubmit">
+    <EditForm Model="@this.Todo" OnValidSubmit="this.HandleValidSubmit">
         <DataAnnotationsValidator />
         <div>
             <label for="Name">Nom:</label>
             <!-- Utilisation d'un champ de texte lié bidirectionnellement à la propriété "Name" de la tâche -->
-            <InputText id="Name" @bind-Value="Todo.Name" />
+            <InputText id="Name" @bind-Value="this.Todo.Name" />
             <!-- Affiche un message de validation pour la propriété "Name" si nécessaire -->
-            <ValidationMessage For="() => Todo.Name" />
+            <ValidationMessage For="() => this.Todo.Name" />
         </div>
         <div>
             <label for="Description">Description:</label>
             <!-- Utilisation d'un champ de texte lié bidirectionnellement à la propriété "Description" de la tâche -->
-            <InputText id="Description" @bind-Value="Todo.Description" />
+            <InputText id="Description" @bind-Value="this.Todo.Description" />
             <!-- Affiche un message de validation pour la propriété "Description" si nécessaire -->
-            <ValidationMessage For="() => Todo.Description" />
+            <ValidationMessage For="() => this.Todo.Description" />
         </div>
         <!-- Bouton de soumission du formulaire -->
         <button type="submit">Modifier</button>
