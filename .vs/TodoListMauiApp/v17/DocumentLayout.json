@@ -46,8 +46,7 @@
               "RelativeToolTip": "Services\\TodoService.cs",
               "ViewState": "AQIAAB8AAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T19:23:06.037Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T19:23:06.037Z"
             },
             {
               "$type": "Document",
@@ -59,8 +58,7 @@
               "RelativeToolTip": "Models\\TodoModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T19:23:02.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T19:23:02.77Z"
             },
             {
               "$type": "Document",
@@ -72,8 +70,7 @@
               "RelativeToolTip": "Pages\\FetchData.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-04T19:23:00.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T19:23:00.192Z"
             },
             {
               "$type": "Document",
@@ -85,8 +82,7 @@
               "RelativeToolTip": "Pages\\ViewTodo.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-04T19:22:57.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T19:22:57.052Z"
             },
             {
               "$type": "Document",
@@ -98,8 +94,7 @@
               "RelativeToolTip": "Pages\\NewTodo.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-04T19:22:55.55Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T19:22:55.55Z"
             },
             {
               "$type": "Document",
@@ -109,7 +104,7 @@
               "RelativeDocumentMoniker": "Pages\\EditTodo.razor",
               "ToolTip": "C:\\Users\\Nicol\\OneDrive\\Documents\\Projets\\TodoListMauiApp\\Pages\\EditTodo.razor",
               "RelativeToolTip": "Pages\\EditTodo.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABIAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-04T19:00:32.572Z",
               "EditorCaption": ""
