@@ -9,7 +9,7 @@
 <h3>Edit Todo</h3>
 
 <!-- Vérifie si la tâche (todo) existe -->
-@if (Todo != null)
+@if (this.Todo != null)
 {
     <!-- Utilisation d'un formulaire de modification (EditForm) -->
     <EditForm Model="@this.Todo" OnValidSubmit="this.HandleValidSubmit">
@@ -32,7 +32,7 @@
         <button type="submit">Modifier</button>
     </EditForm>
     <!-- Lien de retour à la liste des tâches -->
-    <p><a href="fetchdata">Revenir à la liste</a></p>
+    <p><a href="/fetchdata">Revenir à la liste</a></p>
 }
 else
 {
