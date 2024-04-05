@@ -54,9 +54,9 @@
             @foreach (TodoModel todo in this.Todos)
             {
                 <tr style="background-color: #fff; cursor: pointer;" @onclick="@(() => this.OnClickAsync(todo.Id))">
-                        <!-- Affichage des colonnes Name et Description de la tâche -->
-                        <td>@todo.Name</td>
-                        <td>@todo.Description</td>
+                    <!-- Affichage des colonnes Name et Description de la tâche -->
+                    <td>@todo.Name</td>
+                    <td>@todo.Description</td>
                     <!-- Colonne pour les boutons d'action (View, Edit, Delete) -->
                     <td>
                         <!-- Bouton pour visualiser la tâche -->
@@ -74,7 +74,7 @@
     {
         <div class="card">
             <div class="card-body">
-                <h5 class="card-title">Tâche courante @this.CurrentTodo.Name</h5>
+                <h5 class="card-title">Tâche courante</h5>
                 <p class="card-text"><strong>Nom :</strong> @this.CurrentTodo.Name</p>
                 <p class="card-text"><strong>Description :</strong> @this.CurrentTodo.Description</p>
             </div>
