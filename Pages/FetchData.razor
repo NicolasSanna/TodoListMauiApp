@@ -38,24 +38,25 @@
 {
     <!-- Affichage d'un tableau pour la présentation des tâches -->
     <p>Il y a @this.CountTodos Todo(s)</p>
-    <table class="table">
+
+    <table class="table table-hover">
         <!-- En-tête du tableau -->
         <thead>
             <tr>
                 <th>Nom</th>
                 <th>Description</th>
-                <th></th>
+                <th>Actions</th>
             </tr>
         </thead>
         <!-- Corps du tableau avec les données des tâches -->
         <tbody>
             <!-- Boucle pour chaque tâche dans la liste -->
-            @foreach (var todo in this.Todos)
+            @foreach (TodoModel todo in this.Todos)
             {
-                <tr>
-                    <!-- Affichage des colonnes Name et Description de la tâche -->
-                    <td>@todo.Name</td>
-                    <td>@todo.Description</td>
+                <tr style="background-color: #fff; cursor: pointer;" @onclick="@(() => this.OnClickAsync(todo.Id))">
+                        <!-- Affichage des colonnes Name et Description de la tâche -->
+                        <td>@todo.Name</td>
+                        <td>@todo.Description</td>
                     <!-- Colonne pour les boutons d'action (View, Edit, Delete) -->
                     <td>
                         <!-- Bouton pour visualiser la tâche -->
@@ -69,6 +70,16 @@
             }
         </tbody>
     </table>
+    @if (this.CurrentTodo != null)
+    {
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Tâche courante @this.CurrentTodo.Name</h5>
+                <p class="card-text"><strong>Nom :</strong> @this.CurrentTodo.Name</p>
+                <p class="card-text"><strong>Description :</strong> @this.CurrentTodo.Description</p>
+            </div>
+        </div>
+    }
 }
 else
 {
@@ -80,9 +91,10 @@ else
 {
     // Déclaration d'une variable pour stocker la liste de tâches
     private List<TodoModel> Todos;
+    private TodoModel CurrentTodo = null;
     private int CountTodos = 0;
+    private int TodoToDelete = 0;
     private bool ShowModal = false;
-    private int todoToDelete = 0;
 
     // Méthode appelée lors de l'initialisation de la page
     protected override async Task OnInitializedAsync()
@@ -92,11 +104,16 @@ else
         this.CountTodos = Todos.Count();
     }
 
+    private async Task OnClickAsync(int todoId)
+    {
+        this.CurrentTodo = await this.TodoService.GetTodoByIdAsync(todoId);
+    }
+
     // Méthode pour supprimer une tâche
     private async Task DeleteTodoAsync(int todoId)
     {
         // Récupération de la tâche à supprimer à partir de l'ID
-        var todoToDelete = await this.TodoService.GetTodoByIdAsync(todoId);
+        TodoModel todoToDelete = await this.TodoService.GetTodoByIdAsync(todoId);
         // Vérification si la tâche à supprimer existe
         if (todoToDelete != null)
         {
@@ -105,12 +122,20 @@ else
             // Actualisation de la liste de tâches après la suppression
             this.Todos = await this.TodoService.GetAllTodosAsync();
             this.CountTodos = this.Todos.Count();
+            this.CurrentTodo = null;
         }
+    }
+
+    private async Task HandleYesClick()
+    {
+        // Appel de la méthode de suppression avec l'ID de la tâche
+        await this.DeleteTodoAsync(TodoToDelete);
+        this.ShowModal = false;
     }
 
     private void HandleDeleteButtonClick(int todoId)
     {
-        this.todoToDelete = todoId;
+        this.TodoToDelete = todoId;
         this.ShowModal = true;
     }
 
@@ -129,10 +154,5 @@ else
         this.Navigation.NavigateTo($"/todo/{todoId}");
     }
 
-    private async Task HandleYesClick()
-    {
-        // Appel de la méthode de suppression avec l'ID de la tâche
-        await this.DeleteTodoAsync(todoToDelete);
-        this.ShowModal = false;
-    }
+
 }
