@@ -29,7 +29,7 @@ namespace TodoListMauiApp.Services
         // Méthode pour initialiser la connexion à la base de données SQLite
         private SQLiteAsyncConnection InitializeDatabase()
         {
-            string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Todo.db");
+            string dbPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Todo.db");
 
             // Création et retour de la connexion SQLite
             return new SQLiteAsyncConnection(dbPath);
