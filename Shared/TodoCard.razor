@@ -1,0 +1,15 @@
+﻿@using TodoListMauiApp.Models;
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Tâche courante</h5>
+        <p class="card-text"><strong>Nom :</strong> @this.Todo.Name</p>
+        <p class="card-text"><strong>Description :</strong> @this.Todo.Description</p>
+    </div>
+</div>
+
+@code 
+{
+    [Parameter]
+    public TodoModel Todo { get; set; }
+}

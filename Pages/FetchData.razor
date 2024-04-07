@@ -1,7 +1,7 @@
 ﻿@page "/fetchdata"
 
 <!-- Importation des espaces de noms et injection des dépendances -->
-@using TodoListMauiApp.Services
+@using TodoListMauiApp.Services;
 @using TodoListMauiApp.Models;
 @inject ITodoService TodoService
 @inject NavigationManager Navigation
@@ -72,20 +72,14 @@
     </table>
     @if (this.CurrentTodo != null)
     {
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Tâche courante</h5>
-                <p class="card-text"><strong>Nom :</strong> @this.CurrentTodo.Name</p>
-                <p class="card-text"><strong>Description :</strong> @this.CurrentTodo.Description</p>
-            </div>
-        </div>
+        <TodoCard Todo="@this.CurrentTodo" />
     }
 }
 else
 {
     <!-- Affichage d'un message si la liste de tâches est null -->
     <p>Chargement...</p>
-}
+}  
 
 @code
 {
@@ -153,6 +147,4 @@ else
         // Navigation vers la page de visualisation avec l'ID de la tâche
         this.Navigation.NavigateTo($"/todo/{todoId}");
     }
-
-
 }
