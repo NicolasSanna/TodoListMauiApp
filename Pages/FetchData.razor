@@ -25,7 +25,7 @@
                     <p>Voulez-vous supprimer cette Todo ?</p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" @onclick="this.HandleYesClick">Oui</button>
+                    <button type="button" class="btn btn-primary" @onclick="@this.HandleYesClick">Oui</button>
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" @onclick="(() => this.ShowModal = false)">Non</button>
                 </div>
             </div>

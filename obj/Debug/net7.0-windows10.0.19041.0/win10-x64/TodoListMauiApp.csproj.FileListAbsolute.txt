@@ -957,7 +957,7 @@ C:\Users\Nicol\OneDrive\Documents\Projets\TodoListMauiApp\bin\Debug\net7.0-windo
 C:\Users\Nicol\OneDrive\Documents\Projets\TodoListMauiApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\hostfxr.dll
 C:\Users\Nicol\OneDrive\Documents\Projets\TodoListMauiApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\hostpolicy.dll
 C:\Users\Nicol\OneDrive\Documents\Projets\TodoListMauiApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore.dll
-C:\Users\Nicol\OneDrive\Documents\Projets\TodoListMauiApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_7.0.1724.11508.dll
+C:\Users\Nicol\OneDrive\Documents\Projets\TodoListMauiApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_7.0.2024.26716.dll
 C:\Users\Nicol\OneDrive\Documents\Projets\TodoListMauiApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordbi.dll
 C:\Users\Nicol\OneDrive\Documents\Projets\TodoListMauiApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscorrc.dll
 C:\Users\Nicol\OneDrive\Documents\Projets\TodoListMauiApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\msquic.dll

@@ -10,7 +10,7 @@
 <h3>Créer une nouvelle tâche</h3>
 <p>Affichage dynamique : @dynamicName</p>
 <!-- Formulaire d'édition avec liaison aux propriétés du nouveau todo -->
-<EditForm Model="@Todo" OnValidSubmit="HandleValidSubmit">
+<EditForm Model="@Todo" OnValidSubmit="@this.HandleValidSubmit">
     <!-- Validation basée sur les annotations de données -->
     <DataAnnotationsValidator />
 
@@ -18,17 +18,17 @@
     <div>
         <label for="Name">Name:</label>
         <!-- On écoute l'événement quand on commence à mettre du texte avec oninput' -->
-        <InputText id="Name" @bind-Value="Todo.Name" @oninput="this.UpdateName" />
+        <InputText id="Name" @bind-Value="Todo.Name" @oninput="@this.UpdateName" />
         <!-- Affichage des messages de validation pour le champ Name -->
-        <ValidationMessage For="() => this.Todo.Name" />
+        <ValidationMessage For="@(() => this.Todo.Name)" />
     </div>
 
     <!-- Champ pour la description du nouveau todo -->
     <div>
         <label for="Description">Description:</label>
-        <InputText id="Description" @bind-Value="this.Todo.Description" />
+        <InputText id="Description" @bind-Value="@Todo.Description" />
         <!-- Affichage des messages de validation pour le champ Description -->
-        <ValidationMessage For="() => this.Todo.Description" />
+        <ValidationMessage For="@(() => this.Todo.Description)" />
     </div>
 
     <!-- Bouton de soumission du formulaire -->
